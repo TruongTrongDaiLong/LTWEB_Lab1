@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Form</title>
+	<style>
+		form {
+			max-width: 400px;
+			margin: 0 auto;
+			padding: 1em;
+			background-color: #f9f9f9;
+			border: 1px solid blue;
+			border-radius: 5px;
+		}
+		form div {
+			margin-bottom: 10px;
+		}
+		form div input[type="text"] {
+			padding: 10px;
+			font-size: 1em;
+			width: 100%;
+			box-sizing: border-box;
+			border-radius: 3px;
+		}
+		form input[type="submit"] {
+			padding: 0.7em;
+			color: white;
+			background-color: black;
+			border-radius: 3px;
+			font-size: 1em;
+		}
+</style>
+</head>
+<body>
+	<form action="/BaiTap1/home" method="POST">
+		
+		<div> Tên: <input type="text" placeholder="Tên" name="ten"> </div> 
+		<div>Họ lót: <input type="text" placeholder="Họ" name="holot"/></div>
+		<input type="submit" value="Submit"/>
+	</form>
+</body>
+</html>
